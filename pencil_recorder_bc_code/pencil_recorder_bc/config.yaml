@@ -1,0 +1,22 @@
+seed: null
+device: auto
+
+data:
+  normalize: true
+  use_pressure: true
+  dt_clip: 0.5
+  max_files: null
+
+train:
+  epochs: 20
+  batch_size: 32
+  seq_len: 128
+  lr: 0.001
+  weight_decay: 0.0
+  grad_clip: 1.0
+  num_workers: 0
+
+model:
+  hidden: 256
+  layers: 2
+  dropout: 0.1
