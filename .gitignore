@@ -1,0 +1,8 @@
+# Data and experiment artifacts
+data/
+runs/
+*.pt
+
+# Python caches
+__pycache__/
+*.pyc
